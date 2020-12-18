@@ -1,0 +1,6 @@
+print("Enter a list of names or values (add commas): ")
+
+a=input().split()
+
+for i in a:
+    print(i.replace(',',""))
